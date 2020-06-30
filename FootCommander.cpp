@@ -6,7 +6,7 @@
 #include "FootSoldier.hpp"
 #include <iostream>
 
-void FootCommander::playS(vector<vector<Soldier*>> &b, pair<int,int> location) { // location is the solider position
+void FootCommander::playS(vector<vector<Soldier*>> &b, pair<int,int> location) { // location is the new position of the solider
     
     int nRow = b.size();
     int nCol = b[0].size();
