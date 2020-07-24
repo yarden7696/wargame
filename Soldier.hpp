@@ -15,8 +15,8 @@ class Soldier {
 
     public:
    
-    Soldier (uint max_health, uint demage, uint player_number, uint current_health) :max_health(max_health),
-    demage(demage), player_number(player_number), current_health(current_health){}
+    Soldier (uint max_health, uint demage, uint player_number, uint current_health) :
+    max_health(max_health),demage(demage), player_number(player_number), current_health(current_health){}
 
     //destructor
     virtual ~Soldier() {} // its virtual to create a vptr to delete the right solider
